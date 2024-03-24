@@ -1,0 +1,93 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  margin: -8px -8px 0 -8px;
+  background: rgb(35, 144, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin: 80px -8px -8px -8px;
+  padding: 40px 40px;
+  background: rgb(35, 144, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+footer > p {
+  width: 60vw;
+  margin: auto;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: inherit; /* Usa a cor do texto padrão */
+  cursor: pointer; /* Muda o cursor para parecer com um link */
+}
+
+.home {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+button {
+  background-color: rgb(35, 144, 61);
+  color: white;
+  border: 0;
+  height: 42px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: rgb(17, 90, 34);
+}
+
+.acessibilidade{
+  position: fixed;
+  right: 0;
+  top: 110px;
+}
+
+.acessibilidade > button{
+  width: 42px;
+  height: 42px;
+}
+
+.acessibilidade > button > img{
+  width: 40px;
+  height: 40px;
+}
+
+.home > img {
+  height: 80px;
+  width: 80px;
+}
+.user {
+  font-weight: 600;
+}
+
+.user > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin: 0px 10px;
+  border: 2px solid lightgrey;
+}

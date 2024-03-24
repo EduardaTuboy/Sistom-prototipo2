@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sistom - Acompanhamento de Ostomizados" />
+    <title>Sistom</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../views/index.html">
+        <div class="home">
+          <img src="../pictures/logo.png" alt="Logo do Sistom" />
+          <span>Sistom</span>
+        </div>
+      </a>
+      <div class="user">
+        <img src="../pictures/paciente7.jpeg" alt="Imagem do usuário" />
+        <span>Nome de usuário</span>
+      </div>
+    </header>
+    <div class="acessibilidade">
+      <button><img src="./Contraste-icon.svg"></button>
+      <button><img src="./Tam-fonte-menos-icon.svg"></button>
+      <button><img src="./Tam-fonte-mais-icon.svg"></button>
+      <button><img src="./Libras-icon.svg"></button>
+    </div>
+    <main>
+      <h1>Pacientes</h1>
+      <div class="pesquisa">
+        <div class="busca">
+          <input placeholder="Digite o nome do paciente" />
+          <button>Pesquisar</button>
+        </div>
+        <button><ion-icon name="filter-outline"></ion-icon>Filtrar</button>
+        <button>Adicionar</button>
+        <button><a href="../views/estatistica.html">Estatísticas</a></button>
+      </div>
+      <div class="pacientes">
+        <a href="../views/paciente.html">
+          <div class="paciente">
+            <img src="../pictures/paciente2.png" alt="Imagem do paciente" />
+
+            <span>Zézo</span>
+          </div>
+        </a>
+        <a href="../views/paciente.html">
+          <div class="paciente">
+            <img src="../pictures/paciente3.png" alt="Imagem do paciente" />
+            <span>Jorge</span>
+          </div>
+        </a>
+
+        <a href="../views/paciente.html">
+          <div class="paciente aviso_vermelho">
+            <div class="aviso">
+              <img
+                src="warning-outline.svg"
+                alt="Imagem de um sinal de alerta ao lado esquerdo da imagem do paciente"
+              />
+            </div>
+            <img src="../pictures/paciente4.jpeg" alt="Imagem do paciente" />
+            <span>Pietra</span>
+            <hr />
+            <span> Atrasado em 2 meses</span>
+          </div>
+        </a>
+
+        <a href="../views/paciente.html">
+          <div class="paciente">
+            <img src="../pictures/paciente5.jpeg" alt="Imagem do paciente" />
+            <span>Enzo</span>
+          </div>
+        </a>
+
+        <a href="../views/paciente.html">
+          <div class="paciente aviso_amarelo">
+            <div class="aviso">
+              <img
+                src="warning-outline.svg"
+                alt="Imagem de um sinal de alerta ao lado esquerdo da imagem do paciente"
+              />
+            </div>
+            <img src="../pictures/paciente6.jpeg" alt="Imagem do paciente" />
+            <span>Betão</span>
+            <hr />
+            <span> Atrasado em 3 semanas</span>
+          </div>
+        </a>
+
+        <a href="../views/paciente.html">
+          <div class="paciente">
+            <img src="../pictures/paciente7.jpeg" alt="Imagem do paciente" />
+            <span>Marinho</span>
+          </div>
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Site desenvolvido para Centro de Ciências da Saúde (CSS), por estudantes
+        da Universidade de São Paulo (USP) para uso exclusivo de profissionais
+        da saúde do Sistema Único de Saúde (SUS) do Piauí
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
